@@ -1,2 +1,33 @@
-# Fraud_Case_Study
-Data Science Immersive Case Study on Fraud Events
+#Machine Learning Case Study: Fraud Detection
+Design a model to flag potential fraud events for an online even company.
+A fraud event is a fake event which tickets are purchased using stolen
+credit cards.
+
+#Data Science Requirements
+Exploratory Data analysis
+
+Feature Engineering
+
+Build a model
+
+Build a Web Application
+
+
+#Exploratory Data analysis and Feature Engineering
+14,337 Labeled events (Fraud not Fraud)
+Important Object type (Text - example account type) converted into integers.
+
+Created a "cleaning pipeline" for future incoming data (json file).
+
+#Build a Model:
+Built a Random Forest using sci-kit Learn.
+
+Model accuracy on Test data is 93.8%.
+
+Pickled the model for future data to be analyzed.
+
+#Build a Web Application
+Created a Web Application using Flask.
+
+Click "Submit" to generate a 'new' event, the model then determines
+if the event is a fraud and displays the results.
