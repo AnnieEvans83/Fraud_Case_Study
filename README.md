@@ -1,6 +1,6 @@
 #Machine Learning Case Study: Fraud Detection
-Design a model to flag potential fraud events for an online even company.
-A fraud event is a fake event which tickets are purchased using stolen
+Design a model to flag potential fraud events for an online event company.
+A fraud event is a fake event and tickets are purchased using stolen
 credit cards.
 
 #Data Science Requirements
@@ -15,7 +15,7 @@ Build a Web Application
 
 #Exploratory Data analysis and Feature Engineering
 14,337 Labeled events (Fraud not Fraud)
-Important Object type (Text - example account type) converted into integers.
+Important Object type (Text - ex. account type) converted into integers.
 
 Created a "cleaning pipeline" for future incoming data (json file).
 
@@ -31,3 +31,6 @@ Created a Web Application using Flask.
 
 Click "Submit" to generate a 'new' event, the model then determines
 if the event is a fraud and displays the results.
+
+![Web Application](/Screen Shot 2017-03-01 at 11.22.07 AM.png?raw=true "WebApplication")
+
