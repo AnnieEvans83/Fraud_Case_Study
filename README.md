@@ -14,7 +14,8 @@ Build a Web Application
 
 
 #Exploratory Data analysis and Feature Engineering
-14,337 Labeled events (Fraud not Fraud)
+14,337 Labeled events (Fraud not Fraud).
+
 Important Object type (Text - ex. account type) converted into integers.
 
 Created a "cleaning pipeline" for future incoming data (json file).
